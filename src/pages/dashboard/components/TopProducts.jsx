@@ -19,7 +19,7 @@ const TopProducts = () => {
             
 
         <div className="absolute top-[31px] left-[327px] w-[97px] h-[15px] text-xs text-secondary-text">
-          <div className="absolute top-[0px] left-[0px] inline-block w-[97px]">
+          <div className="absolute cursor-pointer top-[0px] left-[0px] inline-block w-[97px]">
             May - June 2021
           </div>
         </div>

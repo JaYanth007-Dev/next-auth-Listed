@@ -3,7 +3,8 @@ import downarr from "../Assets/downarr.png";
 import Image from 'next/image';
 
 const Activities = () => {
-    return (
+  return (
+      <>
         <div className="absolute top-[289px] left-[380px] w-[1000px] h-[359px]">
 
         <div className="absolute top-[0px] left-[0px] w-[1000px] h-[359px]">
@@ -22,7 +23,7 @@ const Activities = () => {
           Activities
         </b>
         <div className="absolute top-[57px] left-[40px] w-[124px] flex h-[17px] text-secondary-text font-montserrat">
-          <div className="absolute top-[0px] left-[0px] inline-block w-[150px]">
+          <div className="absolute cursor-pointer top-[0px] left-[0px] inline-block w-[150px]">
             May - June 2021
           </div>
           <Image
@@ -70,11 +71,64 @@ const Activities = () => {
             </div>
             <div className="absolute top-[9.5px] left-[22.27px] box-border w-[882px] h-px border-t-[1px] border-solid border-field-color-darker" />
                 </div>
+        </div>
+      </div>
 
-        </div>
-     
-      
-        </div>
+        
+        <div className="absolute top-[604px] left-[559px] w-[654px] h-[19px] text-secondary-text font-open-sans">
+        <div className="absolute top-[0px] left-[0px] font-lato">Week 1</div>
+        <div className="absolute top-[0px] left-[200px]">Week 2</div>
+        <div className="absolute top-[0px] left-[400px]">Week 3</div>
+        <div className="absolute top-[0px] left-[600px]">Week 4</div>
+      </div>
+
+        
+      <svg
+        className="absolute top-[424px] left-[500px] "
+        width="881"
+        height="98"
+        viewBox="0 0 881 98"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M879 1.5C879 1.5 777 88 706.5 88C645 88 588 57.5 526.5 57.5C465 57.5 367.5 95 300.5 95C233.5 95 149.5 22.0001 95 22.0001C47.5 22.0001 1.5 96.5 1.5 96.5"
+          stroke="#E9A0A0"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        className="absolute top-[424px] left-[500px] "
+        width="880"
+        height="136"
+        viewBox="0 0 880 136"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M878 76C878 76 824.5 106.5 748.5 106.5C665 106.5 626 2 543 2C460 2 407 118.5 328 118.5C249 118.5 217.5 12 154 12C79.5 12 1.5 134 1.5 134"
+          stroke="#9BDD7C"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </>
     )
 }
 

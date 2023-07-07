@@ -11,15 +11,15 @@ const Sidebar = () => {
     return (
         <div className="absolute top-[40px] left-[40px] w-[280px] h-[944px] text-lg text-white brand">
         <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[30px] bg-black" />
-        <div className="absolute top-[87.92%] left-[17.86%] text-sm">Help</div>
-        <div className="absolute top-[91.84%] left-[17.86%] text-sm">
+        <div className="absolute top-[87.92%] left-[17.86%] cursor-pointer text-sm">Help</div>
+        <div className="absolute top-[91.84%] left-[17.86%]  cursor-pointer text-sm">
             Contact Us
         </div>
-        <div className="absolute top-[43.64%] left-[31.43%]">Settings</div>
-        <div className="absolute top-[37.08%] left-[31.43%]">Users</div>
-        <div className="absolute top-[30.51%] left-[31.43%]">Schedules</div>
-        <div className="absolute top-[23.94%] left-[31.43%]">Transactions</div>
-        <b className="absolute top-[17.37%] left-[31.43%]">Dashboard</b>
+        <div className="absolute top-[43.64%] cursor-pointer left-[31.43%]">Settings</div>
+        <div className="absolute top-[37.08%] cursor-pointer left-[31.43%]">Users</div>
+        <div className="absolute top-[30.51%] cursor-pointer left-[31.43%]">Schedules</div>
+        <div className="absolute top-[23.94%] cursor-pointer left-[31.43%]">Transactions</div>
+        <b className="absolute top-[17.37%] cursor-pointer left-[31.43%]">Dashboard</b>
         <Image
             className="absolute h-[2.2%] w-[6.43%] top-[23.94%] right-[75.71%] bottom-[73.86%] left-[17.86%] max-w-full overflow-hidden max-h-full"
             alt="logo"

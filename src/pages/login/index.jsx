@@ -10,9 +10,9 @@ const LogInPage = () => {
     const router = useRouter();
     const {data: session} = useSession();
 
-    React.useEffect(()=>{
-        if(session) router.push("/dashboard");
-    },[session])
+    React.useEffect(() => {
+        if (session) router.push("/dashboard");
+    }, [session]);
 
     const SignInWithGoogle = async() => {
         await signIn('google', {
@@ -25,7 +25,7 @@ const LogInPage = () => {
                 <h1 className="text-white text-7xl brand font-bold ">Board.</h1>;
             </section>
 
-            <section className='w-[60%] bg-white h-screen flex flex-col gap-[34px] items-center justify-center'>
+            <section className='w-[60%] bg-[#F5F5F5] h-screen flex flex-col gap-[34px] items-center justify-center'>
                 <div>
                     <h1 className="font-bold mt-260 ml-832  text-[36px] text-black font-Montserrat ">Sign in</h1>
                     <p className="text-[16px] mt-309 ml-832 text-black font-Lato font-normal">Sign in to your account</p>

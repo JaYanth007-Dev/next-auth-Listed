@@ -21,7 +21,7 @@ const Dashboard = () => {
     },[session])
 
     return (
-        <div className="relative bg-background w-full h-[1024px] overflow-hidden text-left text-sm text-black font-lato">
+        <div className="relative bg-[#F5F5F5] w-full h-[1024px] overflow-hidden text-left text-sm text-black font-lato">
             <Sidebar />
             <Header user={user}/>
             <Statistics />
